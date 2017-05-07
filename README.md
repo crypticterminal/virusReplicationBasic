@@ -1,9 +1,9 @@
-Basic Python Virus Replication
+# Basic Python Virus Replication
 
-Tutorial:
-https://cranklin.wordpress.com/2012/05/10/how-to-make-a-simple-computer-virus-with-python/
 
-How works
+### How it works
+
+Tutorial from [here](https://cranklin.wordpress.com/2012/05/10/how-to-make-a-simple-computer-virus-with-python/).
 
 Search recurses through the current folder and finds .py files. If the file is already infected, it skips it. Otherwise, it adds it to the list of files to be infected.
 
